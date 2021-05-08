@@ -1,0 +1,156 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*  Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/*  Sections  */
+.colored-section {
+  background-color: #FF4C68;
+  color: #FFF;
+}
+.white-section {
+  background-color: #FFF;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section  */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+    text-align: left;
+}
+/* Title Image  */
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* Features */
+#features {
+  position: relative;
+   /*
+   note: z-index work on all type of position except static position
+   stacking image under the features section
+   */
+  /* z-index: 1; */
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 5%;
+}
+.icon {
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #FF4C68;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #EF8172;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+}
+
+/* Press */
+#press {
+  background-color: #EF8172;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section  */
+#pricing {
+  padding: 8%;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-card {
+  padding: 3% 2%;
+}
+.price-heading {
+  font-size: 1.5rem;
+}
+
+/* Call to Action  section */
+
+/* Footer section  */
+#footer {
+
+}
+.footer-icons {
+  margin: 20px 10px;
+}
+
+/* Making top section responsive  */
+@media (max-width: 991px) {
+  .title-description {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
